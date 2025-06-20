@@ -2,7 +2,6 @@ from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 import os
 import asyncio
-from plugins.teletips_t import *
 from pyrogram.errors import FloodWait, MessageNotModified
 # --- Статические тексты для кнопок и ответов ---
 START_TEXT = "👋 Привет! Я бот-таймер. Используй /set, чтобы начать обратный отсчёт."
