@@ -137,5 +137,7 @@ async def stop_timer(client, message: Message):
         await message.reply(f"⚠️ Ошибка: {ex}")
 
 
-print("✅ Countdown Timer is alive!")
-bot.run()
+
+if __name__ == "__main__":
+    print("✅ Countdown Timer is alive!")
+    bot.run()
